@@ -1,0 +1,32 @@
+package factorymode;
+
+//球
+public interface Ball {
+	
+	void showBallInfo();
+}
+
+//篮球
+class Basketball implements Ball{
+	
+	public void showBallInfo(){
+		System.out.println("篮球");
+	}
+}
+
+//羽毛球
+class Badminton implements Ball{
+	
+	public void showBallInfo(){
+		System.out.println("羽毛球");
+	}
+}
+
+//排球
+class Volleyball implements Ball{
+	
+	public void showBallInfo(){
+		System.out.println("排球");
+	}
+}
+
